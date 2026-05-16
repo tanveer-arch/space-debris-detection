@@ -1,0 +1,36 @@
+# Model weights (upload via GitHub Releases)
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data & outputs
+runs/
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.mp4
